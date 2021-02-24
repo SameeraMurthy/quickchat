@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {font-family: "Poppins"}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: var(--dark-600)
+}
+
+#main .container {
+	word-break: break-all;
+}
+
+#header {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark-700);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--dark-500);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--dark-400);
+}
